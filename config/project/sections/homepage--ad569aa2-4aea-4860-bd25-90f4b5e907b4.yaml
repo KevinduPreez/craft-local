@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  1ca21999-77f0-4850-89a9-fb90b9ce932d: # Chicken Nuggies
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry
+    uriFormat: __home__
+type: single
