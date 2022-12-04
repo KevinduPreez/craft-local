@@ -1,7 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "^3.6.4",
-    "vaersaagod/matrixmate": "1.2.7",
+    "craftcms/cms": "4.0.0",
     "vlucas/phpdotenv": "^3.4.0",
     "zurb/foundation": "^6.6"
   },
@@ -17,12 +16,23 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.2.5"
+      "php": "8.0.2"
+    },
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
     }
   },
   "scripts": {
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "security-key": "./craft setup/security-key",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "restart": [
+      "@stop",
+      "@start"
     ]
   }
 }

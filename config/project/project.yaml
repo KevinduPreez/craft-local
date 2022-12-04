@@ -1,16 +1,27 @@
-dateModified: 1622379174
+dateModified: 1670154541
 email:
-  fromEmail: test@test.com
-  fromName: 'Chicken Nuggies'
+  fromEmail: kevindupreez93@gmail.com
+  fromName: 'Local Dev'
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    87e8c64e-1cbd-4a5c-b5b9-105714b2a0fc: 'Local Dev' # Local Dev
+    600c1b47-f369-4e8e-9a9a-cc748da91e7a: 'Local Dev' # Local Dev
+    c4a1ffcb-fc91-4e20-8a14-189baf429b49: Common # Common
+plugins:
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
-  name: 'Chicken Nuggies'
-  schemaVersion: 3.6.8
+  name: 'Local Dev'
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: null
   photoVolumeUid: null
