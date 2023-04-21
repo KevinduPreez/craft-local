@@ -3,6 +3,8 @@
 /vendor
 .DS_Store
 /config/license.key
+/config/license.key.1
+/datadir
 
 
 .cache/

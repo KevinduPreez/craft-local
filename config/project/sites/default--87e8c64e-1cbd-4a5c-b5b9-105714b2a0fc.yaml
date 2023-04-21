@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Local Dev'
+primary: true
+siteGroup: 600c1b47-f369-4e8e-9a9a-cc748da91e7a # Local Dev
+sortOrder: 1
