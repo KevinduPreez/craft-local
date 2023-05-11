@@ -1,0 +1,16 @@
+import:
+  - recipe/craftcms.php
+
+config:
+  repository: "git@github.com:[yourAccount]/[yourProject].git"
+
+hosts:
+  : remote_user: deployer
+    deploy_path: "~/craft-local"
+
+tasks:
+  build:
+    - run: uptime
+
+after:
+  deploy:failed: deploy:unlock
