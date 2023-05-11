@@ -1,6 +1,6 @@
 dateModified: 1670154541
 email:
-  fromEmail: kevindupreez93@gmail.com
+  fromEmail: test@test.com
   fromName: 'Local Dev'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
